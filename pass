@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "please hit your usr name ::"
+
+read USERNAME
+
+echo "show the usr name : $USERNAME"
