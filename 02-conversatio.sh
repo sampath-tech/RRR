@@ -1,6 +1,9 @@
 #!/bin/bash
 
-echo "Sampath : :hi Pavan How are you doing"
-echo "Pavan : : Im doing sampath How are you"
-echo "sampath : : What are you doing pavan"
-echo "Pavan: : yet to start marketing"
+PERSON1=SAMPATH
+PERSON2=PAVAN
+
+echo "$PERSON1 : :hi $PERSON2 How are you doing"
+echo "$PERSON2 : : Im doing $PERSON1 How are you"
+echo "$PERSON1 : : What are you doing $PERSON2"
+echo "$PERSON2: : yet to start marketing $PERSON2"
