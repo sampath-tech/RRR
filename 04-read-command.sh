@@ -2,7 +2,7 @@
 
 echo "username entira puka : :"
 
-read PORAPUKA
+read -s PORAPUKA
 
 echo "user name is $PORAPUKA"
 
