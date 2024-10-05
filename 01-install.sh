@@ -6,7 +6,7 @@ USERID=$(id -u)
 
 echo "userid is $USERID"
 
-if [ $USERID -ne 0 ]
+if [ $USERID -eq 0 ]
 then
     echo "please run with the root access"
     exit 0
