@@ -9,6 +9,7 @@ echo "userid is $USERID"
 if [ $USERID -ne 0 ]
 then
     echo "please run with the root access"
+    exit 0
 fi
 
-dnf install mysqld -y
+dnf list installed git -y
