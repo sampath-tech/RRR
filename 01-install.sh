@@ -9,7 +9,7 @@ echo "userid is $USERID"
 if [ $USERID -ne 0 ]
 then
     echo "please run with the root access"
-    exit 1
+    exit 0
 fi
 
 dnf list installed git -y
