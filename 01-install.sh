@@ -2,7 +2,7 @@
 
 #This script is only to check the user id only
 
-USERIS=$(id -u)
+USERID=$(id -u)
 
 echo "userid is $USERID"
 
